@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+
+body{
+    background-color: white;
+    color: black;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    max-width: 1600px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.cab, .cam{
+    display: flex;
+    flex-direction: column;
+}
+
+.img1{
+    display: flex;
+}
+
+.img1 h2{
+   margin-top: 200px;
+    margin-left: 50px;
+    max-width: 500px;
+}
+
+p span{
+    font-weight: bold;
+}
+
+.img1 p{
+    margin-left: 50px;
+    max-width: 520px;
+}
+
+.fig1{
+    background-image: url(../img/01079651.webp);
+    width: 800px;
+    height: 100vh;
+    background-repeat: no-repeat;
+    transition: 0.5s all;
+}
+
+.fig1:hover{
+    background-image: url(../img/01079651A1.webp);
+    transition: 0.5s all;
+}
+
+.fig2{
+    margin-top: 80px;
+    margin-left: 200px;
+}
+
+.img2{
+    display: flex;
+}
+
+.img2 h2{
+   margin-top: 300px;
+    margin-left: 100px;
+    max-width: 500px;
+}
+
+.img2 p span{
+    font-weight: bold;
+}
+
+.img2 p{
+    margin-left: 100px;
+    max-width: 520px;
+}
+
+.fig2{
+    background-image: url(../img/01.avif);
+    width: 800px;
+    height: 100vh;
+    background-repeat: no-repeat;
+    transition: 0.5s all;
+}
+
+.fig2:hover{
+    background-image: url(../img/02.jpg);
+    transition: 0.5s all;
+}
+
+footer p{
+    text-align: center;
+    font-size: 14px;
+    color: rgba(70, 70, 70, 0.721);
+}
